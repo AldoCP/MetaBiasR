@@ -1,0 +1,12 @@
+Package: MetaBiasR
+Type: Package
+Title: Assessment of Bias in a Meta-Analysis in a Bayesian framework
+Version: 1.0
+Date: 2016-08-21
+Author: Aldo Cordova-Palomera, Jon Alm Eriksen, Daniel Quintana
+Maintainer: Aldo Cordova-Palomera <a.cordova@ub.edu>
+Description: Estimates the Bayes Factor for bias in a Meta-Analysis
+Imports: cubature, metafor
+Suggests: compute.es
+License: GPL-3
+URL: https://github.com/AldoCP/MetaBiasR
