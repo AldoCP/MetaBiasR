@@ -15,7 +15,7 @@ nullmass(y, sig, sig_prior = 2)
 }
 \value{
 the value of the definite integral of the L0 distribution, 
-evaluated around its mean (±10 standard deviations)
+evaluated around its mean (+-10 standard deviations)
 }
 \description{
 Value of the definite integral of L0, evaluated around the distribution's mean
@@ -32,7 +32,7 @@ dat <- get(data(dat.bangertdrowns2004))
 nullmass(dat$yi, sqrt(dat$vi))
 }
 \author{
-Aldo Córdova-Palomera
+Aldo Cordova-Palomera
 }
 \seealso{
 \code{logL0}, \code{BFbias}

@@ -35,7 +35,7 @@ dat <- get(data(dat.bangertdrowns2004))
 logL(0, 1, dat$yi, sqrt(dat$vi))
 }
 \author{
-Aldo Córdova-Palomera
+Aldo Cordova-Palomera
 }
 \seealso{
 \code{mass}, \code{BFbias}

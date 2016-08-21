@@ -19,7 +19,7 @@ mass(y, sig, sig_prior = 2, Z = 1.96)
 }
 \value{
 the value of the definite (two-dimensional) integral of the L distribution, 
-evaluated around the distribution's mean (±10 standard deviations, for mu), 
+evaluated around the distribution's mean (+-10 standard deviations, for mu), 
 and between 0 and 1 (for eta)
 }
 \description{
@@ -40,7 +40,7 @@ dat <- get(data(dat.bangertdrowns2004))
 mass(dat$yi, sqrt(dat$vi))
 }
 \author{
-Aldo Córdova-Palomera
+Aldo Cordova-Palomera
 }
 \seealso{
 \code{logL}, \code{BFbias}

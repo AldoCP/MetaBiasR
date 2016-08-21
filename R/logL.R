@@ -12,6 +12,7 @@
 #' This is an auxiliary function to calculate the L distribution
 #' in \code{mass}, which is called to compute the Bayes Factor by \code{BFbias}
 #' @seealso \code{mass}, \code{BFbias}
+#' @importFrom stats pnorm
 #' @export
 #' @examples
 #' library(metafor)

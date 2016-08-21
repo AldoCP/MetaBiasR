@@ -30,7 +30,7 @@ dat <- get(data(dat.bangertdrowns2004))
 BFbias(dat$yi, sqrt(dat$vi))
 }
 \author{
-Aldo Córdova-Palomera
+Aldo Cordova-Palomera
 }
 \seealso{
 \code{logL0} \code{logL} \code{nullmass} \code{lmass}

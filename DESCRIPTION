@@ -10,4 +10,3 @@ Imports: cubature, metafor
 Suggests: compute.es
 License: GPL-3
 URL: https://github.com/AldoCP/MetaBiasR
-RoxygenNote: 5.0.1.9000
