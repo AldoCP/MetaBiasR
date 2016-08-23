@@ -17,5 +17,5 @@
 
 BFbias <-
 function(y, sig, sig_prior=2, Z=1.96){
-ans <- mass(y, sig, sig_prior=2, Z=1.96)/nullmass(y, sig, sig_prior=2)
+ans <- mass(y=y, sig=sig, sig_prior=sig_prior, Z=1.96)/nullmass(y=y, sig=sig, sig_prior=sig_prior)
 ans}
